@@ -328,6 +328,9 @@ section .image p {
   color: #dbd9d9;
   opacity: 1;
 }
+section .image .image--content button{
+    transform: scale(0.8);
+}
 section.hits {
   width: 100%;
   min-height: 40vh;
@@ -579,7 +582,7 @@ footer .footer--content a {
     margin: 0 auto;
   }
   section .image .image--content {
-    margin-bottom: 35px;
+    margin-bottom: 40px;
   }
 }
 @media screen and (567px<width<767px){
